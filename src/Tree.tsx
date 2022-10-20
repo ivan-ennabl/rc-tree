@@ -1482,6 +1482,7 @@ class Tree<TreeDataType extends DataNode | BasicDataNode = DataNode> extends Rea
             onListChangeEnd={this.onListChangeEnd}
             onContextMenu={onContextMenu}
             onScroll={onScroll}
+            filterTreeNode={filterTreeNode}
             {...this.getTreeNodeRequiredProps()}
             {...domProps}
           />
